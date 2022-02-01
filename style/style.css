@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Orbitron:wght@500&family=Volkhov&display=swap");
 :root {
   --Volkhov: 'Barlow Semi Condensed', sans-serif;
+  --Orbitron: 'Orbitron', sans-serif;
 }
 
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16,9 +22,17 @@
   margin-top: 15%;
   height: 100%;
   width: 100%;
+  font-size: 20px;
+  text-align: center;
 }
 
 .speech {
   font-family: var(--Volkhov);
+}
+
+.clock {
+  font-family: var(--Orbitron);
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 /*# sourceMappingURL=style.css.map */
