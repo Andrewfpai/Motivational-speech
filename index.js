@@ -15,13 +15,29 @@ function myDate(){
 
     setTimeout(myDate, 1000);
 
-    if (h < 7){
-        document.getElementById("bg").textContent = "morning";
-    } else if (h>6 && h<12){
-        document.getElementById("bg").textContent = "afternoon"
-    } else if (h>11 && h<18){
-        document.getElementById("bg").textContent = "evening"
+    if (h < 6){
+        document.getElementById("bg").textContent = "Good Morning!";
+        document.body.style.backgroundImage = "url('/images/Night_three.png')";
+        document.getElementById("wrapper").style.color = "white"
+
+    } else if (h>5 && h<12){
+        document.getElementById("bg").textContent = "Good Morning!"
+        document.body.style.backgroundImage = "url('/images/Morning.png')";    
+        
+    
+    } else if (h>11 && h<15){
+        document.getElementById("bg").textContent = "Good Afternoon!"
+        document.body.style.backgroundImage = "url('/images/Afternoon.png')";
+        
+    
+    } else if (h>14 && h<18){
+        document.getElementById("bg").textContent = "Good Evening!"
+        document.body.style.backgroundImage = "url('/images/Evening.png')";
+    
     } else if (h>17 && h<25){
-        document.getElementById("bg").textContent = "night"}
+        document.getElementById("bg").textContent = "Good Night!"
+        document.body.style.backgroundImage = "url('/images/Night_one.png')";
+        document.getElementById("wrapper").style.color = "white"
+    }
 }
 

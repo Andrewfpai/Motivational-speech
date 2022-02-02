@@ -6,12 +6,17 @@
     --Orbitron: 'Orbitron', sans-serif;
 }
 
+body{
+   
+    background-size: 100%
+}
+
 .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5em;
     height: 100%;
     width: 100%;
     font-size: 20px;
@@ -27,6 +32,12 @@
     font-family: var(--Orbitron);
     font-size: 20px;
     letter-spacing: 3px;
+    margin-top: 1em;
+}
+
+.bg{
+
+    font-family: var(--Orbitron) ;
 }
 
 
