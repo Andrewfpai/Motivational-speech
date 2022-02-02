@@ -23,7 +23,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5em;
+  margin-top: 15%;
   height: 100%;
   width: 100%;
   font-size: 20px;
@@ -38,10 +38,5 @@ body {
   font-family: var(--Orbitron);
   font-size: 20px;
   letter-spacing: 3px;
-  margin-top: 1em;
-}
-
-.bg {
-  font-family: var(--Orbitron);
 }
 /*# sourceMappingURL=style.css.map */
