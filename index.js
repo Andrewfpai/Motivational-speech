@@ -29,6 +29,7 @@ function nothing(){
     if (h < 6){
         caption.textContent = "Good Morning";
         bg.backgroundImage = "url('images/Night_three.png')";
+        document.getElementById("wrapper").style.color = "white"
         time = 0
 
         
@@ -50,6 +51,7 @@ function nothing(){
     } else if (h>17 && h<25){
         caption.textContent = "Good Night"
         bg.backgroundImage = "url('images/Night_one.png')";
+        document.getElementById("wrapper").style.color = "white"
         time = 3
     }
 
