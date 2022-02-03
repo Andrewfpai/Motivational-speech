@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Volkhov&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Orbitron:wght@500&family=Volkhov&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Orbitron:wght@500&family=Short+Stack&family=Volkhov&display=swap");
 :root {
   --Volkhov: 'Barlow Semi Condensed', sans-serif;
   --Orbitron: 'Orbitron', sans-serif;
+  --ShortHand: 'Barlow Semi Condensed', sans-serif;
 }
 
 body {
@@ -38,10 +40,11 @@ body {
   font-family: var(--Orbitron);
   font-size: 20px;
   letter-spacing: 3px;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .bg {
-  font-family: var(--Orbitron);
+  cursor: pointer;
+  font-family: var(--ShortHand);
 }
 /*# sourceMappingURL=style.css.map */
