@@ -91,6 +91,18 @@ function bgTranslate(){
 
 
 }
+let quote1 = "You may not control all the events that happen to you, but you can decide not to be reduced by them"
+let quote2 = "Care about what other people think and you will always be their prisoner"
+let quote3 = "The only real mistake is the one from which we learn nothing"
+let quote4 = "Resentment is like drinking poison and then hoping it will kill your enemies"
+let quote5 = "We must all suffer one of two things: the pain of discipline or the pain of regret"
 
+function randomQuotes(){
+    let lists = [quote1, quote2, quote3, quote4, quote5]
+    var item = lists[Math.floor(Math.random()*lists.length)];
+
+    document.getElementById("speech").textContent = item
+
+}
 
 
