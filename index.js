@@ -96,9 +96,12 @@ let quote2 = "Care about what other people think and you will always be their pr
 let quote3 = "The only real mistake is the one from which we learn nothing"
 let quote4 = "Resentment is like drinking poison and then hoping it will kill your enemies"
 let quote5 = "We must all suffer one of two things: the pain of discipline or the pain of regret"
+let quote6 = "You learn nothing from winning, you only learn from failures"
+let quote7 = "Respect people's time if you want your time to be respected"
+
 
 function randomQuotes(){
-    let lists = [quote1, quote2, quote3, quote4, quote5]
+    let lists = [quote1, quote2, quote3, quote4, quote5, quote6, quote7]
     var item = lists[Math.floor(Math.random()*lists.length)];
 
     document.getElementById("speech").textContent = item
